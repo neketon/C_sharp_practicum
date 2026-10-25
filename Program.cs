@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using C_sharp_practicum.Menu;
 namespace C_sharp_practicum
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            MenuRunner.Run();
         }
     }
 }
