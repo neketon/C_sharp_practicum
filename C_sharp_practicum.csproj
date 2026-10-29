@@ -56,6 +56,7 @@
     <Compile Include="Tasks\Level1\Task05_MultiplicationTable.cs" />
     <Compile Include="Tasks\Level1\Task06_DigitSum.cs" />
     <Compile Include="Tasks\Level1\Task07_ReverseString.cs" />
+    <Compile Include="Tasks\Level1\Task08_FizzBuzz.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
