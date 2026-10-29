@@ -53,6 +53,7 @@
     <Compile Include="Tasks\Level1\Task02_Primitives.cs" />
     <Compile Include="Tasks\Level1\Task03_Calculator.cs" />
     <Compile Include="Tasks\Level1\Task04_EvenOdd.cs" />
+    <Compile Include="Tasks\Level1\Task05_MultiplicationTable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
