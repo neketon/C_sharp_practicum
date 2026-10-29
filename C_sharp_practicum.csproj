@@ -50,6 +50,20 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tasks\Level1\Task01_HelloWorld.cs" />
+    <Compile Include="Tasks\Level1\Task02_Primitives.cs" />
+    <Compile Include="Tasks\Level1\Task03_Calculator.cs" />
+    <Compile Include="Tasks\Level1\Task04_EvenOdd.cs" />
+    <Compile Include="Tasks\Level1\Task05_MultiplicationTable.cs" />
+    <Compile Include="Tasks\Level1\Task06_DigitSum.cs" />
+    <Compile Include="Tasks\Level1\Task07_ReverseString.cs" />
+    <Compile Include="Tasks\Level1\Task08_FizzBuzz.cs" />
+    <Compile Include="Tasks\Level1\Task09_ArrayStats.cs" />
+    <Compile Include="Tasks\Level1\Task10_Sorting.cs" />
+    <Compile Include="Tasks\Level1\Task11_MatrixDiagonal.cs" />
+    <Compile Include="Tasks\Level1\Task12_Palindrome.cs" />
+    <Compile Include="Tasks\Level1\Task13_WordCount.cs" />
+    <Compile Include="Tasks\Level1\Task14_Age.cs" />
+    <Compile Include="Tasks\Level1\Task15_GitBasics.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
