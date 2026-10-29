@@ -7,7 +7,7 @@ using C_sharp_practicum.Common;
 
 
 
-namespace CSharpPracticum.Tasks.Level1
+namespace C_sharp_practicum.Tasks.Level1
 {
     /// <summary>Задание 11 — диагональ матрицы.</summary>
     public class Task11_MatrixDiagonal : ITask
