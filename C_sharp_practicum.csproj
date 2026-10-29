@@ -55,6 +55,7 @@
     <Compile Include="Tasks\Level1\Task04_EvenOdd.cs" />
     <Compile Include="Tasks\Level1\Task05_MultiplicationTable.cs" />
     <Compile Include="Tasks\Level1\Task06_DigitSum.cs" />
+    <Compile Include="Tasks\Level1\Task07_ReverseString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
