@@ -41,7 +41,23 @@ namespace C_sharp_practicum.Menu
             {
                 new Task16_StringExtensions(),
                 new Task17_StringBuilderVsConcat(),
-                new Task18_TryParseVsTryCatch()
+                new Task18_TryParseVsTryCatch(),
+                 new Task19_MyStackAndQueue(),
+                new Task20_Generics(),
+                new Task21_DayOfWeek(),
+                new Task22_ParamsOverload(),
+                new Task23_Nullable(),
+                new Task24_Animals(),
+                new Task25_Shapes(),
+                new Task26_DiscountStrategy(),
+                new Task27_StudentsSorting(),
+                new Task28_PointEquals(),
+                new Task29_NotificationFactory(),
+                new Task30_BankAccount(),
+                new Task31_IDisposable(),
+                new Task32_Temperature(),
+                new Task33_EmployeesLinq(),
+                new Task34_WordsGrouping()
                 // Сюда будешь добавлять новые задания 16-35
             };
 

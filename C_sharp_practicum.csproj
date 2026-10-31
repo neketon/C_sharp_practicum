@@ -82,6 +82,7 @@
     <Compile Include="Tasks\Level2\Task31_IDisposable.cs" />
     <Compile Include="Tasks\Level2\Task32_Temperature.cs" />
     <Compile Include="Tasks\Level2\Task33_EmployeesLinq.cs" />
+    <Compile Include="Tasks\Level2\Task34_WordsGrouping.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
