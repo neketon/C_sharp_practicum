@@ -67,3 +67,23 @@
 * e9b3ad3 Добавить .gitattributes.
 ### What I learned
 Научился создавать ветки, делать слияние (merge) и вручную разрешать конфликты в файлах.
+## Task 35 — Branches & PR (Level 2)
+### Commands
+- `git add .gitignore .editorconfig`
+- `git commit -m "chore: add gitignore and editorconfig"`
+- `git commit -m "feat: task 35 - first small commit"`
+- `git commit -m "feat: task 35 - second small commit"`
+- `git rebase -i HEAD~3` (в открывшемся редакторе Vim заменил `pick` на `squash` для объединения коммитов)
+- `git push --force`
+
+### Output (git log --oneline)
+e42c780 (HEAD -> level-2) chore: add gitignore and editorconfig
+83e819f (origin/level-2) Merge branch 'master' into level-2
+3a27a3f task35
+cfa2803 task34
+
+
+### What I learned
+Научился настраивать `.editorconfig`, создавать Pull Request с описанием и делать интерактивный rebase (`git rebase -i`). 
+Понял, как работает объединение коммитов (squash) через редактор Vim, как выходить из него (`:wq`), и что после изменения истории нужно делать `git push --force`.
+
