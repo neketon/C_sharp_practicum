@@ -44,7 +44,15 @@ namespace C_sharp_practicum.Tasks.Level2
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(X, Y);
+            // Старый надежный способ вычисления хэш-кода:
+            // берем X, умножаем на простое число и прибавляем Y.
+            unchecked // отключает проверку на переполнение (чтобы не было ошибок)
+            {
+                int hash = 17;
+                hash = hash * 23 + X.GetHashCode();
+                hash = hash * 23 + Y.GetHashCode();
+                return hash;
+            }
         }
 
         public static bool operator ==(Point left, Point right) => Equals(left, right);
