@@ -64,11 +64,13 @@
     <Compile Include="Tasks\Level1\Task13_WordCount.cs" />
     <Compile Include="Tasks\Level1\Task14_Age.cs" />
     <Compile Include="Tasks\Level1\Task15_GitBasics.cs" />
+    <Compile Include="Tasks\Level2\Task21_DayOfWe.cs" />
     <Compile Include="Tasks\Level2\Task20_Generics.cs" />
     <Compile Include="Tasks\Level2\Task18_TryParseVsTryCatch.cs" />
     <Compile Include="Tasks\Level2\Task17_StringBuilderVsConcat.cs" />
     <Compile Include="Tasks\Level2\Task16_StringExtensions.cs" />
     <Compile Include="Tasks\Level2\Task19_MyStackAndQueue.cs" />
+    <Compile Include="Tasks\Level2\Task22_ParamsOverload.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
