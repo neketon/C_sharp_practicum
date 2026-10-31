@@ -78,6 +78,8 @@
     <Compile Include="Tasks\Level2\Task27_StudentsSorting.cs" />
     <Compile Include="Tasks\Level2\Task28_PointEquals.cs" />
     <Compile Include="Tasks\Level2\Task29_NotificationFactory.cs" />
+    <Compile Include="Tasks\Level2\Task30_BankAccount.cs" />
+    <Compile Include="Tasks\Level2\Task31_IDisposable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
