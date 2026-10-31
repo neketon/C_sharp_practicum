@@ -64,14 +64,34 @@
     <Compile Include="Tasks\Level1\Task13_WordCount.cs" />
     <Compile Include="Tasks\Level1\Task14_Age.cs" />
     <Compile Include="Tasks\Level1\Task15_GitBasics.cs" />
+    <Compile Include="Tasks\Level2\Task21_DayOfWe.cs" />
+    <Compile Include="Tasks\Level2\Task20_Generics.cs" />
+    <Compile Include="Tasks\Level2\Task18_TryParseVsTryCatch.cs" />
+    <Compile Include="Tasks\Level2\Task17_StringBuilderVsConcat.cs" />
+    <Compile Include="Tasks\Level2\Task16_StringExtensions.cs" />
+    <Compile Include="Tasks\Level2\Task19_MyStackAndQueue.cs" />
+    <Compile Include="Tasks\Level2\Task22_ParamsOverload.cs" />
+    <Compile Include="Tasks\Level2\Task23_Nullable.cs" />
+    <Compile Include="Tasks\Level2\Task24_Animals.cs" />
+    <Compile Include="Tasks\Level2\Task25_Shapes.cs" />
+    <Compile Include="Tasks\Level2\Task26_DiscountStrategy.cs" />
+    <Compile Include="Tasks\Level2\Task27_StudentsSorting.cs" />
+    <Compile Include="Tasks\Level2\Task28_PointEquals.cs" />
+    <Compile Include="Tasks\Level2\Task29_NotificationFactory.cs" />
+    <Compile Include="Tasks\Level2\Task30_BankAccount.cs" />
+    <Compile Include="Tasks\Level2\Task31_IDisposable.cs" />
+    <Compile Include="Tasks\Level2\Task32_Temperature.cs" />
+    <Compile Include="Tasks\Level2\Task33_EmployeesLinq.cs" />
+    <Compile Include="Tasks\Level2\Task34_WordsGrouping.cs" />
+    <Compile Include="Tasks\Level2\Task35_GitAdvanced.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="App.config" />
+    <None Include="git-notes.md" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Tasks\Level2\" />
     <Folder Include="Tasks\Level3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,6 +1,7 @@
 ﻿using C_sharp_practicum.Common;
-using C_sharp_practicum.Tasks.Level1;
 using C_sharp_practicum.Menu;
+using C_sharp_practicum.Tasks.Level1;
+using C_sharp_practicum.Tasks.Level2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +16,11 @@ namespace C_sharp_practicum.Menu
         /// <summary>Запускает главное меню.</summary>
         public static void Run()
         {
+            // Список заданий 1 уровня
             List<ITask> level1 = new List<ITask>
             {
                 new Task01_HelloWorld(),
-                /* new Task02_Primitives(),
+                new Task02_Primitives(),
                 new Task03_Calculator(),
                 new Task04_EvenOdd(),
                 new Task05_MultiplicationTable(),
@@ -31,7 +33,33 @@ namespace C_sharp_practicum.Menu
                 new Task12_Palindrome(),
                 new Task13_WordCount(),
                 new Task14_Age(),
-                new Task15_GitBasics() */
+                new Task15_GitBasics()
+            };
+
+            // Список заданий 2 уровня (пока пустой, будешь добавлять сюда по мере выполнения)
+            List<ITask> level2 = new List<ITask>
+            {
+                new Task16_StringExtensions(),
+                new Task17_StringBuilderVsConcat(),
+                new Task18_TryParseVsTryCatch(),
+                 new Task19_MyStackAndQueue(),
+                new Task20_Generics(),
+                new Task21_DayOfWeek(),
+                new Task22_ParamsOverload(),
+                new Task23_Nullable(),
+                new Task24_Animals(),
+                new Task25_Shapes(),
+                new Task26_DiscountStrategy(),
+                new Task27_StudentsSorting(),
+                new Task28_PointEquals(),
+                new Task29_NotificationFactory(),
+                new Task30_BankAccount(),
+                new Task31_IDisposable(),
+                new Task32_Temperature(),
+                new Task33_EmployeesLinq(),
+                new Task34_WordsGrouping(),
+                new Task35_GitAdvanced()
+                // Сюда будешь добавлять новые задания 16-35
             };
 
             while (true)
@@ -54,6 +82,9 @@ namespace C_sharp_practicum.Menu
                         new LevelMenu("Уровень 1: Базовый", level1).Run();
                         break;
                     case "2":
+                        // Запуск 2 уровня
+                        new LevelMenu("Уровень 2: Средний", level2).Run();
+                        break;
                     case "3":
                         Console.WriteLine("Уровень пока не готов. Нажмите Enter...");
                         Console.ReadLine();
