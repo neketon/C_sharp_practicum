@@ -83,6 +83,7 @@
     <Compile Include="Tasks\Level2\Task32_Temperature.cs" />
     <Compile Include="Tasks\Level2\Task33_EmployeesLinq.cs" />
     <Compile Include="Tasks\Level2\Task34_WordsGrouping.cs" />
+    <Compile Include="Tasks\Level2\Task35_GitAdvanced.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

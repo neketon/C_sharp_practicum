@@ -57,7 +57,8 @@ namespace C_sharp_practicum.Menu
                 new Task31_IDisposable(),
                 new Task32_Temperature(),
                 new Task33_EmployeesLinq(),
-                new Task34_WordsGrouping()
+                new Task34_WordsGrouping(),
+                new Task35_GitAdvanced()
                 // Сюда будешь добавлять новые задания 16-35
             };
 
