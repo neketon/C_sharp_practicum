@@ -81,6 +81,7 @@
     <Compile Include="Tasks\Level2\Task30_BankAccount.cs" />
     <Compile Include="Tasks\Level2\Task31_IDisposable.cs" />
     <Compile Include="Tasks\Level2\Task32_Temperature.cs" />
+    <Compile Include="Tasks\Level2\Task33_EmployeesLinq.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
