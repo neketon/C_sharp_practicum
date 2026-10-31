@@ -76,6 +76,7 @@
     <Compile Include="Tasks\Level2\Task25_Shapes.cs" />
     <Compile Include="Tasks\Level2\Task26_DiscountStrategy.cs" />
     <Compile Include="Tasks\Level2\Task27_StudentsSorting.cs" />
+    <Compile Include="Tasks\Level2\Task28_PointEquals.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
