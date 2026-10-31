@@ -64,6 +64,7 @@
     <Compile Include="Tasks\Level1\Task13_WordCount.cs" />
     <Compile Include="Tasks\Level1\Task14_Age.cs" />
     <Compile Include="Tasks\Level1\Task15_GitBasics.cs" />
+    <Compile Include="Tasks\Level2\Task18_TryParseVsTryCatch.cs" />
     <Compile Include="Tasks\Level2\Task17_StringBuilderVsConcat.cs" />
     <Compile Include="Tasks\Level2\Task16_StringExtensions.cs" />
   </ItemGroup>

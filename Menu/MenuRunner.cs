@@ -39,8 +39,9 @@ namespace C_sharp_practicum.Menu
             // Список заданий 2 уровня (пока пустой, будешь добавлять сюда по мере выполнения)
             List<ITask> level2 = new List<ITask>
             {
-                new Task16_StringExtensions(), 
-                // new Task17_StringBuilderVsConcat(),
+                new Task16_StringExtensions(),
+                new Task17_StringBuilderVsConcat(),
+                new Task18_TryParseVsTryCatch()
                 // Сюда будешь добавлять новые задания 16-35
             };
 
