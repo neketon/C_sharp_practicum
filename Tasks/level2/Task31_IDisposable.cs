@@ -21,7 +21,7 @@ namespace C_sharp_practicum.Tasks.Level2
                 writer1.Write("Первая строка");
             } // Здесь файл автоматически закроется
 
-            // Второй вариант записи (тоже с фигурными скобками, так как using var недоступен)
+            
             using (var writer2 = new FileWriter(path))
             {
                 writer2.Write("Вторая строка");
