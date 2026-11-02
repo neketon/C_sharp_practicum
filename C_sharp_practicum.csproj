@@ -84,15 +84,15 @@
     <Compile Include="Tasks\Level2\Task33_EmployeesLinq.cs" />
     <Compile Include="Tasks\Level2\Task34_WordsGrouping.cs" />
     <Compile Include="Tasks\Level2\Task35_GitAdvanced.cs" />
+    <Compile Include="Tasks\Level3\Task36_Duplicates.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include=".gitignore" />
     <None Include="App.config" />
     <None Include="git-notes.md" />
     <None Include="README.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tasks\Level3\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
