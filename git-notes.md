@@ -87,3 +87,31 @@ cfa2803 task34
 Ќаучилс€ настраивать `.editorconfig`, создавать Pull Request с описанием и делать интерактивный rebase (`git rebase -i`). 
 ѕон€л, как работает объединение коммитов (squash) через редактор Vim, как выходить из него (`:wq`), и что после изменени€ истории нужно делать `git push --force`.
 
+## Task 46 Ч git stash
+
+### Commands
+- `git stash`
+- `git stash list`
+- `git stash pop`
+
+### Output (git stash list before pop)
+C:\Users\0\source\repos\C_sharp_practicum>git stash list
+stash@{0}: WIP on level-3: 180a415 task45
+
+### Output (git stash list after pop
+
+C:\Users\0\source\repos\C_sharp_practicum>git stash pop
+On branch level-3
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (27794299f08b44a0ee646fa753b0ffcc75a6fda3)
+
+C:\Users\0\source\repos\C_sharp_practicum> git stash list
+
+C:\Users\0\source\repos\C_sharp_practicum>
+### What I learned
+Ќаучилс€ временно пр€тать незакоммиченные изменени€, чтобы можно было переключитьс€ на другую ветку, а потом возвращать их обратно.
