@@ -88,6 +88,7 @@
     <Compile Include="Tasks\Level3\task37_Fibonacci.cs" />
     <Compile Include="Tasks\Level3\Task38_ListVsLinkedList.cs" />
     <Compile Include="Tasks\Level3\Task39_YieldReturn.cs" />
+    <Compile Include="Tasks\Level3\Task40_AsyncAwait.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
