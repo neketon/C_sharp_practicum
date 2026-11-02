@@ -90,6 +90,7 @@
     <Compile Include="Tasks\Level3\Task39_YieldReturn.cs" />
     <Compile Include="Tasks\Level3\Task40_AsyncAwait.cs" />
     <Compile Include="Tasks\Level3\Task41_ParallelTasks.cs" />
+    <Compile Include="Tasks\Level3\Task42_Cancellation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
