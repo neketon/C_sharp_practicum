@@ -27,4 +27,4 @@
 - Что узнал: как настраивать `.gitignore`, делать ветки и создавать Pull Request на GitHub.
 - small
 - second
-- third
+- third строчка
